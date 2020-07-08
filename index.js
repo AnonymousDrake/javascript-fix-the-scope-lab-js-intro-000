@@ -18,5 +18,5 @@ function funkyFunction(){
     return "FUNKY!"
   }
 }
-var theFunk = funkyFunction();
-theFunk();
+var T = funkyFunction();
+var theFunk = T();
