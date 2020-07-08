@@ -13,11 +13,11 @@ function add2(n) {
   const two = 2
   return n + two
 }
-var funkyFunction = function(){
-  return function () {
+function funkyFunction(){
+  return function Y() {
     return "FUNKY!"
   }
 }
 var theFunk = funkyFunction();
-var heF = theFunk();
-heF();
+theFunk();
+
